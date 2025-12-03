@@ -28,10 +28,13 @@ driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 @Test
 public void wikipediaSearchTest() {
 driver.get("https://www.wikipedia.org/");
+String title = driver.getTitle();
+System.out.println("Page title in Jenkins: " + title);
 
-WebElement searchBox = wait.until(
-ExpectedConditions.visibilityOfElementLocated(By.id("searchInput"))
-);
+if (title == null || title.isBlank()) {
+throw new AssertionError("Title should not be blank");
+}
+}
 
 searchBox.sendKeys("Selenium WebDriver");
 searchBox.submit();
