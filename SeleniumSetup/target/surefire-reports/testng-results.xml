@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-02T22:48:53 CST" name="Surefire suite" finished-at="2025-12-02T22:48:59 CST" duration-ms="5722">
+    <groups>
+    </groups>
+    <test started-at="2025-12-02T22:48:53 CST" name="Surefire test" finished-at="2025-12-02T22:48:59 CST" duration-ms="5722">
+      <class name="TestAutomation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestAutomation@4e41089d]" started-at="2025-12-02T22:48:53 CST" name="setUp" finished-at="2025-12-02T22:48:55 CST" duration-ms="1628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wikipediaSearchTest()[pri:0, instance:TestAutomation@4e41089d]" started-at="2025-12-02T22:48:55 CST" name="wikipediaSearchTest" finished-at="2025-12-02T22:48:57 CST" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipediaSearchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestAutomation@4e41089d]" started-at="2025-12-02T22:48:57 CST" name="tearDown" finished-at="2025-12-02T22:48:57 CST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestAutomation -->
+      <class name="SauceDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SauceDemoTest@64d7f7e0]" started-at="2025-12-02T22:48:57 CST" name="setUp" finished-at="2025-12-02T22:48:59 CST" duration-ms="1941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:SauceDemoTest@64d7f7e0]" started-at="2025-12-02T22:48:57 CST" name="setUpClass" finished-at="2025-12-02T22:48:57 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="validLogin_shouldGoToProductsPage()[pri:0, instance:SauceDemoTest@64d7f7e0]" started-at="2025-12-02T22:48:59 CST" name="validLogin_shouldGoToProductsPage" finished-at="2025-12-02T22:48:59 CST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin_shouldGoToProductsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemoTest@64d7f7e0]" started-at="2025-12-02T22:48:59 CST" name="tearDown" finished-at="2025-12-02T22:48:59 CST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SauceDemoTest@64d7f7e0]" started-at="2025-12-02T22:48:59 CST" name="tearDownClass" finished-at="2025-12-02T22:48:59 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SauceDemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
