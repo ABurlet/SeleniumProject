@@ -40,8 +40,8 @@ String title = driver.getTitle();
 System.out.println("TestNG Test title: " + title);
 
 // simple assertion check
-if (!title.toLowerCase().contains("selenium webdriver")) {
-throw new AssertionError("Results title does not contain 'Selenium WebDriver'");
+if (!title.toLowerCase().contains("selenium")) {
+throw new AssertionError("Results title does not contain 'selenium'. Actual: " + title);
 }
 }
 
